@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f1d02a0be07ae5cade3c2eb454d16042" entityID="https://wso2-ids-test2.liguriadigitale.it/pub-ag-full/TEST"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_f1d02a0be07ae5cade3c2eb454d16042">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>8fT0SAw7//Kv1E4aWZiNbEBeBNeCGhmu2mWFlLQZ938=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+sNzg6058ONMHsRWNTRqcLErHWjp8XaxVm0noqbDJ+QnfUjSzxgvh4oviUuIgqBzJd3mk4wX4oZ9p
+eSiZ/zIwQ+aY08jB2iO7GEg0Xl+ZzKkf7DjSrlNjXD2Io22XUtfxVSiKE650FST9E3i382i9Jfmi
+H4fgk3M/II1i1Sg3I9r1CQBzMkqUeRz4Unl9oqgJCUF4pFRmFQC48C7M9TTEwo5r+whHGNDim5jC
+CakK9YF6bIkqUIbjpSWW7dCssYLyS9ZjUjhAYsKKnDFS+hC+n7F/rJHyHvBxqyQ+S+xDlrTm8dHk
+/oZmL/4m7rcS+yUqnPCeGqhI2GTzwjwYS/o6psyLq26TYBMIftfTHhljiYLCv2AWo5JAP1KvKFeJ
+NT6NkdG3kgNhwNu/Dv+4dyNaKeXIOWNE6aE+JPnni4N1hhGdKwondWUKr0EvucGoQVAuCO4f2rCV
+TYEpwvuSqaNsbILrWW58XDonlPMMSbSRjxe1shoVKlCmoGacsndKtYef
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+0EdT2a1ISrnQV6kG3drp4NiKpgU9Bxkht+6p3i+vuBMuvgaGF5dYcIgOUMmRnQaM6poxvwLsBJX1
+YToNwI2HJBI10XFU5DiJA2eeS48SVyL+QDO4VLZ4I1dsDnJm0bosQNV5V99QNXGzK0IInpiDWfFq
+USB+/FiHo3KCRW4mOLWtIHY+tfpmeGmhWhCHmrS3JWggblw0oU+gawaexsP8KvlGvau1bDbCN09e
+VPpp6R3RYT6/mob0GzfmqtPtw5kKUFGkKeY4MDeGFiN+ok0YKHYvylCxAv/UDxKXwJbQKXUPH6qM
+NG5GUWhnOhGnvNuxFc1f+s74ii6MhrmfWyJm4C3SMZ4cDcZ6zlpWpsI/lYdeWZPLP54at5Q1b8rJ
+yavAkM/HWKZXaBC8bZ+hzxEXxH3Vpshhnh7ohu/Fnka1gFjTlO+K5ddg+R1k8/Dt8rPBq/6RCz3P
+bfbKNKxV8X504h9fp0hmiDokVdGxV8Zy8sI2s0TOdmQxGBXiT0j/P4ZX
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFVTCCA72gAwIBAgIUA2u0vk+YnvS6F/PPR8PjGfDCgvEwDQYJKoZIhvcNAQELBQAwgaoxIDAe
+BgNVBAMMF0xpZ3VyaWEgRGlnaXRhbGUgUy5wLkEuMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2Vu
+b3ZhMRMwEQYDVQRhDApQQTpJVC1kYXRhMR0wGwYDVQQKDBRMaWd1cmlhIERpZ2l0YWxlIFNwYTE0
+MDIGA1UEUwwraHR0cHM6Ly93d3cubGlndXJpYWRpZ2l0YWxlLml0L3B1Yi1hZy1mdWxsLzAeFw0y
+MjA3MTExMzI2MzdaFw0yNDA3MTAxMzI2MzdaMIGqMSAwHgYDVQQDDBdMaWd1cmlhIERpZ2l0YWxl
+IFMucC5BLjELMAkGA1UEBhMCSVQxDzANBgNVBAcMBkdlbm92YTETMBEGA1UEYQwKUEE6SVQtZGF0
+YTEdMBsGA1UECgwUTGlndXJpYSBEaWdpdGFsZSBTcGExNDAyBgNVBFMMK2h0dHBzOi8vd3d3Lmxp
+Z3VyaWFkaWdpdGFsZS5pdC9wdWItYWctZnVsbC8wggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQDQR1PZrUhKudBXqQbd2ung2IqmBT0HGSG37qneL6+4Ey6+BoYXl1hwiA5QyZGdBozqmjG/
+AuwElfVhOg3AjYckEjXRcVTkOIkDZ55LjxJXIv5AM7hUtngjV2wOcmbRuixA1XlX31A1cbMrQgie
+mINZ8WpRIH78WIejcoJFbiY4ta0gdj61+mZ4aaFaEIeatLclaCBuXDShT6BrBp7Gw/wq+Ua9q7Vs
+NsI3T15U+mnpHdFhPr+ahvQbN+aq0+3DmQpQUaQp5jgwN4YWI36iTRgodi/KULEC/9QPEpfAltAp
+dQ8fqow0bkZRaGc6Eae827EVzV/6zviKLoyGuZ9bImbgLdIxnhwNxnrOWlamwj+Vh15Zk8s/nhq3
+lDVvysnJq8CQz8dYpldoELxtn6HPERfEfdWmyGGeHuiG78WeRrWAWNOU74rl12D5HWTz8O3ys8Gr
+/pELPc9t9so0rFXxfnTiH1+nSGaIOiRV0bFXxnLywjazRM52ZDEYFeJPSP8/hlcCAwEAAaNxMG8w
+CQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUH
+AgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJ
+KoZIhvcNAQELBQADggGBAKlpMYeyk32bKw60oyUz+n4AvLTqVtrHcwXPvdozW2seG0aO5m656wkn
+vsR+WreuWI0Y7pw71JH2eZlJdT6iNbgXzMwmCNmIVIMwhWuTueGvUybuFD8Dy1NxiySjRz26Roox
+tagZhl/7b/1By1HaQIDKY6MpIVTmG1XOULWgSYHx+megch4ozW+leAJFxPa9NL3X/h3KQ8nSNhmE
+iw6Q45PZSP5O8u9uPPFNQTpiPwiPl/7OLWSJI5WS9jGupC90Z2cYxf/Kl8X1Gi04QeRfKC1jlrIg
+OazXL9Fj12M6tdQpp+562v5/7medQC/Q51QVX9wVi/KnqUImwKNQK/ql4bpwBMtSGG+sCzY3KoJR
+oR3CcLR2LYBUfArKPsdD2922NOHtFy/59RklTX4ddiXqLeJthcWygv0Mk79vyC2v58KGdYFCNwuc
+SdgbhyT83ayu1Mssp4vsftz/jnFVlaKJWOu0f6l8miMITFM55c1/W+8cHex3MbPmqKzjPsJGk8fZ
+bA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFXTCCA8WgAwIBAgIUfVygooqjToUJX80sI1+xxBAMpOwwDQYJKoZIhvcNAQEL
+BQAwga4xIDAeBgNVBAMMF0xpZ3VyaWEgRGlnaXRhbGUgUy5wLkEuMQswCQYDVQQG
+EwJJVDEPMA0GA1UEBwwGR2Vub3ZhMRMwEQYDVQRhDApQQTpJVC1kYXRhMR0wGwYD
+VQQKDBRMaWd1cmlhIERpZ2l0YWxlIFNwYTE4MDYGA1UEUwwvaHR0cHM6Ly93d3cu
+bGlndXJpYWRpZ2l0YWxlLml0L3B1Yi1hZy1mdWxsL1RFU1QwHhcNMjIwMzI5MDkz
+NTU3WhcNMjQwMzI4MDkzNTU3WjCBrjEgMB4GA1UEAwwXTGlndXJpYSBEaWdpdGFs
+ZSBTLnAuQS4xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZHZW5vdmExEzARBgNVBGEM
+ClBBOklULWRhdGExHTAbBgNVBAoMFExpZ3VyaWEgRGlnaXRhbGUgU3BhMTgwNgYD
+VQRTDC9odHRwczovL3d3dy5saWd1cmlhZGlnaXRhbGUuaXQvcHViLWFnLWZ1bGwv
+VEVTVDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALX4VBNZbmA7ZY94
+lhdGRQiD5CXZHFdyQdhYBreZ44k2QL8/rS0LJj5t9KeTJEYjvOE+VGksdbHZDtqI
+5P9qsFCgu42Dy03L1rZXtPD3i9HyOKy4nI86bianrFVocRMJCTHsu7RIqOBf5XHi
+LVZL1VyvYqHc4Yr+g3YiMaqw0P4wGSgyDPHSzQgunjQBoXLhuKb6p1CRmQ4cbOSQ
+deHu7qi499loTijNwixPkmvyGgn6j0OnXLwGw9sFw9jU8vYTPxa8/D6KDqVOmCz8
+FLKzNuO0OippjRpACXVV+igf5YcwmPUbB6L52bmKMRIoaz/BmgnjOsoiph/vu6or
+r2fs8bfwA/q1+W0RlvwG5/EyNEOiQq8QTdeXRRYV+Bh/tEXziHMwj5604iu+4od3
+fL0iJKGcsxsVDesH9kwk44PsYI2vYzkPuS7kxRWbRgWOmvmRmg+BDWboZdYabqyU
+WzW8xv/ZyoGaFkN2SI3/vgoJAupG0nIZeNNwZw0HRbBcYdpF0QIDAQABo3EwbzAJ
+BgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAW
+BggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjAN
+GgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAYEAlLfR/ixiHn2hBGyd5l85
+xps1h9ld4tUvXrepRGVz/k6wM0Ym2CYDYLxK8DPgcT2NkkPuW2ueFXE5cZ12jHXu
+l3WCWaejv5XXNg5c12KIvo0eV/WLtTpxIhIZC87lm58UYFJJFNF8GKcl4+u5uxrf
+Cc9nOYpcFP4JdhQiis4pE2AO7LDjzHyVrqPM0JENhpzpQfF+N2r2oFPB1nUllFDP
+SDqDEa0kmKdSeYzJ6y73eSPW7XLN4RcBuTAfAPkVqnyZytjYp0AstsUQxX3JfN8Q
+v6DR2gC5hDpeumIMiVKMucMNiARHsVUNo+aKOQE/lI04lxV/ZWovtcven8XWdb/O
+A91VuWH4kZ6EJnHQYW/749ODirL40V2vNl6ajPXBTDPUzkboYxKkkQh1uk1/K10B
+AmhcX4ICV4mChkpwmYWzV0sWeeCcF8YeO6PGUXDegInLZlWnFomdkk8n1v6H/zj5
+B9sFV2GoonDDDhSHofBJ5+yH/mxT9m6DxQRklwtCiZGk
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFXTCCA8WgAwIBAgIUfVygooqjToUJX80sI1+xxBAMpOwwDQYJKoZIhvcNAQEL
+BQAwga4xIDAeBgNVBAMMF0xpZ3VyaWEgRGlnaXRhbGUgUy5wLkEuMQswCQYDVQQG
+EwJJVDEPMA0GA1UEBwwGR2Vub3ZhMRMwEQYDVQRhDApQQTpJVC1kYXRhMR0wGwYD
+VQQKDBRMaWd1cmlhIERpZ2l0YWxlIFNwYTE4MDYGA1UEUwwvaHR0cHM6Ly93d3cu
+bGlndXJpYWRpZ2l0YWxlLml0L3B1Yi1hZy1mdWxsL1RFU1QwHhcNMjIwMzI5MDkz
+NTU3WhcNMjQwMzI4MDkzNTU3WjCBrjEgMB4GA1UEAwwXTGlndXJpYSBEaWdpdGFs
+ZSBTLnAuQS4xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZHZW5vdmExEzARBgNVBGEM
+ClBBOklULWRhdGExHTAbBgNVBAoMFExpZ3VyaWEgRGlnaXRhbGUgU3BhMTgwNgYD
+VQRTDC9odHRwczovL3d3dy5saWd1cmlhZGlnaXRhbGUuaXQvcHViLWFnLWZ1bGwv
+VEVTVDCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALX4VBNZbmA7ZY94
+lhdGRQiD5CXZHFdyQdhYBreZ44k2QL8/rS0LJj5t9KeTJEYjvOE+VGksdbHZDtqI
+5P9qsFCgu42Dy03L1rZXtPD3i9HyOKy4nI86bianrFVocRMJCTHsu7RIqOBf5XHi
+LVZL1VyvYqHc4Yr+g3YiMaqw0P4wGSgyDPHSzQgunjQBoXLhuKb6p1CRmQ4cbOSQ
+deHu7qi499loTijNwixPkmvyGgn6j0OnXLwGw9sFw9jU8vYTPxa8/D6KDqVOmCz8
+FLKzNuO0OippjRpACXVV+igf5YcwmPUbB6L52bmKMRIoaz/BmgnjOsoiph/vu6or
+r2fs8bfwA/q1+W0RlvwG5/EyNEOiQq8QTdeXRRYV+Bh/tEXziHMwj5604iu+4od3
+fL0iJKGcsxsVDesH9kwk44PsYI2vYzkPuS7kxRWbRgWOmvmRmg+BDWboZdYabqyU
+WzW8xv/ZyoGaFkN2SI3/vgoJAupG0nIZeNNwZw0HRbBcYdpF0QIDAQABo3EwbzAJ
+BgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAW
+BggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjAN
+GgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAYEAlLfR/ixiHn2hBGyd5l85
+xps1h9ld4tUvXrepRGVz/k6wM0Ym2CYDYLxK8DPgcT2NkkPuW2ueFXE5cZ12jHXu
+l3WCWaejv5XXNg5c12KIvo0eV/WLtTpxIhIZC87lm58UYFJJFNF8GKcl4+u5uxrf
+Cc9nOYpcFP4JdhQiis4pE2AO7LDjzHyVrqPM0JENhpzpQfF+N2r2oFPB1nUllFDP
+SDqDEa0kmKdSeYzJ6y73eSPW7XLN4RcBuTAfAPkVqnyZytjYp0AstsUQxX3JfN8Q
+v6DR2gC5hDpeumIMiVKMucMNiARHsVUNo+aKOQE/lI04lxV/ZWovtcven8XWdb/O
+A91VuWH4kZ6EJnHQYW/749ODirL40V2vNl6ajPXBTDPUzkboYxKkkQh1uk1/K10B
+AmhcX4ICV4mChkpwmYWzV0sWeeCcF8YeO6PGUXDegInLZlWnFomdkk8n1v6H/zj5
+B9sFV2GoonDDDhSHofBJ5+yH/mxT9m6DxQRklwtCiZGk
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.regione.liguria.it/oidc/logout" ResponseLocation="https://idptest.regione.liguria.it/oidc/logout"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.regione.liguria.it/commonauth" ResponseLocation="https://idptest.regione.liguria.it/commonauth" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">set0</md:ServiceName>
+<md:RequestedAttribute FriendlyName="SPID Code" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="1">
+<md:ServiceName xml:lang="it">set1</md:ServiceName>
+<md:RequestedAttribute FriendlyName="SPID Code" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+<md:RequestedAttribute FriendlyName="Provincia di nascita" Name="countyOfBirth"/>
+<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth"/>
+<md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+<md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName"/>
+<md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+<md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+<md:RequestedAttribute FriendlyName="Documento di identità" Name="idCard"/>
+<md:RequestedAttribute FriendlyName="Numero di telefono mobile" Name="mobilePhone"/>
+<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+<md:RequestedAttribute FriendlyName="Domicilio fisico" Name="address"/>
+<md:RequestedAttribute FriendlyName="Data di scadenza identità" Name="expirationDate"/>
+<md:RequestedAttribute FriendlyName="Domicilio digitale" Name="digitalAddress"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="2">
+<md:ServiceName xml:lang="it">set2</md:ServiceName>
+<md:RequestedAttribute FriendlyName="SPID Code" Name="spidCode"/>
+<md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+<md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+<md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"/>
+<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+<md:RequestedAttribute FriendlyName="Indirizzo di posta elettronica" Name="email"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="99">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="100">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+<md:RequestedAttribute Name="placeOfBirth"/>
+<md:RequestedAttribute Name="address"/>
+<md:RequestedAttribute Name="gender"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Organizzazione fittizia per il collaudo</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Organizzazione fittizia per il collaudo</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.alisa.liguria.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+<md:Extensions>
+            <spid:VATNumber>IT02994540108</spid:VATNumber>
+            <spid:FiscalCode>02994540108</spid:FiscalCode>
+<spid:PublicServicesFullAggregator/>
+</md:Extensions>
+<md:Company>Liguria Digitale SPA</md:Company>
+<md:EmailAddress>referente.spid@liguriadigitale.it</md:EmailAddress>
+<md:TelephoneNumber>+3901065451</md:TelephoneNumber>
+</md:ContactPerson>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+<md:Extensions>
+            <spid:IPACode>__aggrsint</spid:IPACode>
+<spid:Public/>
+</md:Extensions>
+<md:Company>Organizzazione fittizia per il collaudo</md:Company>
+</md:ContactPerson>
+</md:EntityDescriptor>
