@@ -141,7 +141,7 @@ B9sFV2GoonDDDhSHofBJ5+yH/mxT9m6DxQRklwtCiZGk
 </ds:X509Data>
 </ds:KeyInfo>
 </md:KeyDescriptor>
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.regione.liguria.it/oidc/logout" ResponseLocation="https://idptest.regione.liguria.it/oidc/logout"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.regione.liguria.it/samlsso" ResponseLocation="https://idptest.regione.liguria.it/samlsso"/>
 <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
 <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idptest.regione.liguria.it/commonauth" ResponseLocation="https://idptest.regione.liguria.it/commonauth" index="0" isDefault="true"/>
 <md:AttributeConsumingService index="0">
